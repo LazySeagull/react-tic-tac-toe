@@ -15,7 +15,7 @@ export default function Board() {
 
   function handleClick(i) {
 
-    if(squares(i)){
+    if(squares[i]){
       return;
     }
 
